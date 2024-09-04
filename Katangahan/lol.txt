@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>One With Earth</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <main>
+        <div id="titemalaki">
+            <h1 id="tite">One With Earth</h1>
+            <a href="https://www.youtube.com/"><button type="button" class="button button1">Join Us!</button></a>
+        </div>
+        <section>
+            <div class="center">
+                <button id="identity-popup">Identity</button>
+            </div>
+            <div>
+                <div class="popup1" id="popup1">
+                    <div class="overlay"></div>
+                    <div class="identity-content">
+                        <h2>Identity</h2>
+                        <p>One with Earth is a grassroots environmental organization dedicated to restoring harmony between humanity and nature. We focus on sustainable practices, conservation efforts, and environmental education to protect and nurture the planet for future generations.</p>
+                        <div class="controls">
+                            <button class="close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Ok this is the second part bitches-->
+
+            <div class="center2">
+                <button id="vision-popup">Vision</button>
+            </div>
+            <div>
+                <div class="popup2" id="popup2">
+                    <div class="overlay"></div>
+                    <div class="vision-content">
+                        <h2>Vision</h2>
+                        <p>To create a world where humans and nature coexist in balance, ensuring that the earth's ecosystems thrive and all living beings enjoy a healthy, sustainable environment.</p>
+                        <div class="controls">
+                            <button class="close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center3">
+                <button id="mission-popup">Mission</button>
+            </div>
+            <div>
+                <div class="popup3" id="popup3">
+                    <div class="overlay"></div>
+                    <div class="mission-content">
+                        <h2>Mission</h2>
+                        <p>Our mission is to engage communities, inspire change, and implement innovative solutions to protect the environment. We strive to reduce pollution, conserve natural resources, and promote sustainable living through education, advocacy, and hands-on projects that reconnect people with the earth.</p>
+                        <div class="controls">
+                            <button class="close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.popup4 {
+    position: absolute;
+    top: -100vh;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: top 0ms ease-in-out 300ms;
+}
+.popup4 .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+    opacity: 0;
+    transition:opacity 100ms ease-in-out 200ms;
+}
+.popup4 .cv-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.15);
+    width: 95%;
+    max-width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 0px 2px 2px 5px rgba(0,0,0,0.05);
+    transition: all 300ms ease-in-out;
+}
+.popup4 .cv-content h2 {
+    margin: 10px 0px;
+    color:#222;
+    text-align: center;
+}
+.popup4 .cv-content .controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px;
+}
+.popup4 .cv-content .controls button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.popup4 .cv-content .controls .close-btn {
+    background: transparent;
+    color:#3284ed;
+}
+.popup4.active {
+    top:0px;
+    transition: top 0ms ease-in-out 0ms;
+}
+.popup4.active .overlay {
+    opacity: 1;
+    transition:all 30ms ease-in-out;
+}
+.popup4.active .cv-content {
+    transform:translate(-50%,-50%) scale(1);
+}

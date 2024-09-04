@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Among Us</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="index.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+        <label id="overlays"for="sidebar-active"></label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+            <a class="home-link" href="home.html"><img src="images/icon.png" alt="logo"></a>
+            <a href="about.html">About</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </nav>
+    <section>
+            <h1 id="tite">About Us</h1>
+            <div class="button">
+                <div class="center">
+                    <button id="identity-popup" class="identity-popup">Identity</button>
+                </div>
+                <div class="center1">
+                    <button id="vision-popup" class="vision-popup">Vision</button>
+                </div>
+                <div class="center2">
+                    <button id="mission-popup" class="mission-popup">Mission</button>
+                </div>
+                <div class="center3">
+                    <button id="cv-popup" class="cv-popup">Core Values</button>
+                </div>
+            </div>
+            <div>
+                <div class="popup1" id="popup1">
+                    <div class="overlay"></div>
+                    <div class="identity-content">
+                        <h2>Identity</h2>
+                        <p>One with Earth is a grassroots environmental organization dedicated to restoring harmony
+                            between humanity and nature. We focus on sustainable practices, conservation efforts,
+                            and environmental education to protect and nurture the planet for future generations.
+                        </p>
+                        <div class="controls">
+                            <button class="close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Ok this is the second part bitches-->
+            <div>
+                <div class="popup2" id="popup2">
+                    <div class="overlay"></div>
+                    <div class="vision-content">
+                        <h2>Vision</h2>
+                        <p>To create a world where humans and nature coexist in balance, ensuring that the earth's
+                            ecosystems thrive and all living beings enjoy a healthy, sustainable environment.</p>
+                        <div class="controls">
+                            <button class="close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="popup3" id="popup3">
+                    <div class="overlay"></div>
+                    <div class="mission-content">
+                        <h2>Mission</h2>
+                        <p>Our mission is to engage communities, inspire change, and implement innovative solutions
+                            to protect the environment. We strive to reduce pollution, conserve natural resources,
+                            and promote sustainable living through education, advocacy, and hands-on projects that
+                            reconnect people with the earth.</p>
+                        <div class="controls">
+                            <button class="close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="popup4" id="popup4">
+                    <div class="overlay"></div>
+                    <div class="cv-content">
+                        <h2>Core Values</h2>
+                        <pre>
+
+
+        Sustainability 
+        Community Engagement
+        Innovation
+        Respect for Nature
+                    </pre>
+                        <div class="controls">
+                            <button class="close-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
